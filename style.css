@@ -12,6 +12,7 @@
     --laranja: #F4A226;
     --verde:  #98D9A9;
     --azul: #AED6F1;
+    --rosa: #FFBCCC;
 }
 
 body{
@@ -34,4 +35,51 @@ header>div.container-flex{
     width: 85%;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+#logo{
+    width: 250px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.links a{
+    font-family: "Super Malibu";
+    font-size: 30px;
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.links a:hover{
+    /* color: var(--amarelo); */
+    /* border-bottom: 1px solid var(--amarelo); */
+    background-color: var(--rosa);
+    border-radius: 7px;
+    padding: 5px;
+    
+}
+
+#icone-barras,
+#icone-x,
+#menu_botao{
+    display: none;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+     margin-bottom: 200px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    min-height: 250px;
 }
