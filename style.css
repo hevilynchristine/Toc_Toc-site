@@ -15,10 +15,11 @@
     --rosa: #FFBCCC;
     --rosaforte: #FF8CA7;
     --roxo: #C998D9;
+    --pastel: #FFEDD1;
 }
 
 @font-face {
-    font-family: Super;
+    font-family: "Super Malibu";
     src: url(./fonts/Super\ Malibu.ttf);
 }
 
@@ -27,7 +28,7 @@ body {
     background-color: var(--fundo-site);
 }
 
-/* HEADER */
+
 header {
     width: 100%;
 }
@@ -63,8 +64,6 @@ header>div.container-flex {
 }
 
 .links a:hover {
-    /* color: var(--amarelo); */
-    /* border-bottom: 1px solid var(--amarelo); */
     background-color: var(--rosa);
     border-radius: 7px;
     padding: 5px;
@@ -93,6 +92,7 @@ header>div.container-flex {
 }
 
 #Sobre {
+    margin-bottom: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -130,8 +130,256 @@ header>div.container-flex {
 }
 
 .icones {
+    margin-bottom: 200px;
     display: flex;
-    justify-content: space-around;
+   justify-content: space-evenly;
     align-items: center;
-    margin-top: 100px;
 }
+
+.icone1 h2 {
+    font-size: 38px;
+    font-family: "Super Malibu", Regular;
+    background-color: var(--verde);
+    padding: 10px 75px;
+    border-radius: 28px;
+}
+
+.icone2 h2 {
+    font-size: 38px;
+    font-family: "Super Malibu", Regular;
+    background-color: var(--azul);
+     padding: 10px 75px;
+    border-radius: 28px;
+}
+
+.icone3 h2 {
+    font-size: 38px;
+    font-family: "Super Malibu", Regular;
+    background-color: var(--amarelo);
+    padding: 10px 75px;
+    border-radius: 28px;
+}
+
+.icone1 h2:hover{
+background-color: var(--rosaforte);
+}
+.icone2 h2:hover{
+    background-color: var(--rosaforte);
+}
+
+.icone3 h2:hover{
+    background-color: var(--rosaforte);
+}
+
+.imagensBrinquedos{
+    margin-bottom: 150px;
+}
+
+#Brinquedos h1 {
+    margin-bottom: 100px;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: "Super Malibu", Regular;
+    width: 260px; 
+    height: 40px; 
+    padding: 0;
+    background-color: var(--rosa);
+    border-radius: 19px;
+}
+
+.imagensBrinquedos{
+   display: flex; 
+  justify-content:center; 
+   align-items: center; 
+   gap: 80px; 
+}
+
+.img1img2 img{
+    width: 486px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.img3img4 img{
+   width: 486px;
+   height: auto;
+   border-radius: 20px;
+}
+
+.img1img2 h2 {
+    font-size: 17px;
+    font-family: "Super Malibu";
+    background-color: var(--verde);
+    padding: 10px 75px;
+    border-radius: 20px;
+    
+}
+
+.img3img4 h2 {
+    font-size: 20px;
+    font-family: "Super Malibu";
+    background-color: var(--amarelo);
+    border-radius: 19px;
+    
+}
+
+.img1img2 p{
+    font-size: 10px;
+    font-family: "Super Malibu";
+}
+
+.img3img4 p{
+    font-size: 10px;
+     font-family: "Super Malibu";
+    margin-bottom: 200px;
+}
+
+
+.entre-contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   font-family: "Super Malibu";
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    width: 500px;
+    margin-bottom: 200px;
+}
+
+
+.icone {
+    display: flex;
+    align-items: center;
+    background-color: var(--rosaforte);
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 40px;
+}
+
+.icone img {
+    width: 24px;
+    height: 24px;
+    background-color: var(--azul);
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.icone input {
+    border: none;
+    background: transparent;
+    font-family: "Super Malibu";
+    color:var(--preto);
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+}
+
+.entre-contato button {
+    background-color: var(--verde);
+    border: none;
+    font-family: "Super Malibu";
+    color: var(--preto);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.entre-contato button:hover {
+    background-color: var(--roxo);
+}
+
+
+
+footer {
+    margin-top: 60px;
+}
+
+
+.linha-final {
+    background-color: var(--pastel);
+    width: 100%;
+    padding: 15px 0;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.rodape img {
+    width: 250px;
+    height: auto;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+.redes-sociais svg{
+    width: 35px; 
+    height: 35px;
+}
+
+
+.redes-sociais a {
+    color: var(--preto);
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+
+
+/* -------------------- Responsividade --------------- */
+
+@media screen and (max-width: 768px) {
+#sombra {
+        background-color: #9D562390;
+        backdrop-filter: blur(10px);
+        z-index: 1;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        right: -101vw;
+        transition: .5s;
+    }
+
+    #menu_botao {
+        display: block;
+        z-index: 1;
+    }
+
+nav.menu {
+        /* height: 100vh; */
+        width: 200px;
+        padding: 0px 30px;
+
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+
+        position: fixed;
+        top: 165px;
+        right: -210px;
+        z-index: 1;
+        transition: .5s;
+    }
+
+}
+
+
+
+
