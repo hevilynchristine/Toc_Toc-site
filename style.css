@@ -197,12 +197,14 @@ background-color: var(--rosaforte);
   justify-content:center; 
    align-items: center; 
    gap: 80px; 
+   margin-bottom: 200px;
 }
 
 .img1img2 img{
     width: 486px;
     height: auto;
     border-radius: 20px;
+    margin: 20px;
 }
 
 
@@ -210,10 +212,13 @@ background-color: var(--rosaforte);
    width: 486px;
    height: auto;
    border-radius: 20px;
+   margin: 20px;
 }
 
 .img1img2 h2 {
-    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
     font-family: "Super Malibu";
     background-color: var(--verde);
     padding: 10px 75px;
@@ -222,22 +227,28 @@ background-color: var(--rosaforte);
 }
 
 .img3img4 h2 {
+    display: flex;
+    justify-content: center;
     font-size: 20px;
     font-family: "Super Malibu";
     background-color: var(--amarelo);
-    border-radius: 19px;
+    padding: 10px 75px;
+    border-radius: 20px;
     
 }
 
 .img1img2 p{
+    display: flex;
+    justify-content: center;
     font-size: 10px;
     font-family: "Super Malibu";
 }
 
 .img3img4 p{
+    display: flex;
+    justify-content: center;
     font-size: 10px;
-     font-family: "Super Malibu";
-    margin-bottom: 200px;
+    font-family: "Super Malibu";
 }
 
 
